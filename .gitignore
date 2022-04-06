@@ -1,2 +1,3 @@
 node_modules
 dev-test.js
+./blockchain/blockchain.test.js
