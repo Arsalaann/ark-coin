@@ -26,9 +26,10 @@ class Block{
     }
 
     static mineBlock(lastBlock,data){
-        let hash,timestamp,nonce=0;
+        let hash,timestamp;
         const lastHash=lastBlock.hash;
         let {difficulty}=lastBlock;
+        let nonce=0;
 
         do{
             nonce++;
